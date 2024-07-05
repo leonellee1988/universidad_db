@@ -7,3 +7,6 @@ SELECT * FROM estudiante_seccion;
 
 DELETE FROM estudiante_seccion
 WHERE id_estudiante = 75 AND id_seccion = 1
+
+INSERT INTO seccion VALUES
+(2, 'Sección B', 2);
